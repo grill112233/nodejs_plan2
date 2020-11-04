@@ -1,0 +1,19 @@
+{
+    "name": "exmaple-ci-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "test": "mocha --reporter mochawesome | nyc --reporter=html mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "mocha": "^3.5.0"
+    },
+    "devDependencies": {
+      "mochawesome": "^2.3.0",
+      "nyc": "^11.1.0"
+    }
+  }
